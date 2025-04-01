@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Honey theme colors
+				honey: {
+					50: '#FFF8E1',
+					100: '#FFECB3',
+					200: '#FFE082',
+					300: '#FFD54F',
+					400: '#FFCA28',
+					500: '#FFC107', // Primary honey color
+					600: '#FFB300',
+					700: '#FFA000',
+					800: '#FF8F00',
+					900: '#FF6F00',
+				},
+				honeycomb: {
+					light: '#F9D784',
+					DEFAULT: '#E2A92B',
+					dark: '#A67712',
+				},
+				beeBlack: '#292116',
+				sunnyYellow: '#FCE38A',
+				leafGreen: '#3F5E5A',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +106,19 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' },
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 5s ease-in-out infinite',
+			},
+			backgroundImage: {
+				'honeycomb-pattern': "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100' viewBox='0 0 56 100'%3E%3Cpath d='M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100' fill='none' stroke='rgba(226, 169, 43, 0.1)' stroke-width='2'/%3E%3Cpath d='M28 0L28 34L0 50L0 84L28 100L56 84L56 50L28 34' fill='none' stroke='rgba(226, 169, 43, 0.1)' stroke-width='2'/%3E%3C/svg%3E\")",
 			}
 		}
 	},
