@@ -118,7 +118,7 @@ export default {
 				'float': 'float 5s ease-in-out infinite',
 			},
 			backgroundImage: {
-				'honeycomb-pattern': "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100' viewBox='0 0 56 100'%3E%3Cpath d='M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100' fill='none' stroke='rgba(226, 169, 43, 0.1)' stroke-width='2'/%3E%3Cpath d='M28 0L28 34L0 50L0 84L28 100L56 84L56 50L28 34' fill='none' stroke='rgba(226, 169, 43, 0.1)' stroke-width='2'/%3E%3C/svg%3E\")",
+				'honeycomb-pattern': "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100' viewBox='0 0 56 100'%3E%3Cpath d='M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100' fill='none' stroke='rgba(226, 169, 43, 0.2)' stroke-width='2'/%3E%3Cpath d='M28 0L28 34L0 50L0 84L28 100L56 84L56 50L28 34' fill='none' stroke='rgba(226, 169, 43, 0.2)' stroke-width='2'/%3E%3C/svg%3E\")",
 			}
 		}
 	},
