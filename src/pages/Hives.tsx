@@ -1,7 +1,7 @@
 
 import Layout from '@/components/layout/Layout';
 import PageHeader from '@/components/layout/PageHeader';
-import { Honeycomb, Map, FileSignature } from 'lucide-react';
+import { Hexagon, Map, FileSignature } from 'lucide-react';
 
 const Hives = () => {
   return (
@@ -16,7 +16,7 @@ const Hives = () => {
           <div className="max-w-5xl mx-auto">
             <div className="bg-white rounded-lg shadow-lg p-8 md:p-12 mb-12">
               <div className="flex items-center mb-8">
-                <Honeycomb className="text-honeycomb h-8 w-8 mr-3" />
+                <Hexagon className="text-honeycomb h-8 w-8 mr-3" />
                 <h2 className="text-2xl md:text-3xl font-bold text-beeBlack">About Our Hives</h2>
               </div>
               

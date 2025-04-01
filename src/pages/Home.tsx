@@ -1,8 +1,7 @@
-
 import { Link } from 'react-router-dom';
 import Layout from '@/components/layout/Layout';
 import PageHeader from '@/components/layout/PageHeader';
-import { ArrowRight, MapPin, Honeycomb, Workflow, FileText } from 'lucide-react';
+import { ArrowRight, MapPin, Hexagon, Workflow, FileText } from 'lucide-react';
 
 const Home = () => {
   return (
@@ -61,7 +60,7 @@ const Home = () => {
             {/* Feature 2 */}
             <div className="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border-t-4 border-honeycomb">
               <div className="bg-honeycomb-light rounded-full w-14 h-14 flex items-center justify-center mb-6">
-                <Honeycomb className="text-beeBlack h-7 w-7" />
+                <Hexagon className="text-beeBlack h-7 w-7" />
               </div>
               <h3 className="text-xl font-bold mb-3">Hive Architecture</h3>
               <p className="text-gray-600">

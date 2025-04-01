@@ -1,6 +1,5 @@
-
 import { Link } from 'react-router-dom';
-import { Honeycomb, MapPin, Phone, Mail } from 'lucide-react';
+import { Hexagon, MapPin, Phone, Mail } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,7 +11,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
-              <Honeycomb className="text-honeycomb h-8 w-8 mr-2" />
+              <Hexagon className="text-honeycomb h-8 w-8 mr-2" />
               <h3 className="text-xl font-bold text-white">Ziggy's Honeyworks</h3>
             </div>
             <p className="mb-4 text-gray-300">

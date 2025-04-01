@@ -1,7 +1,6 @@
-
 import Layout from '@/components/layout/Layout';
 import PageHeader from '@/components/layout/PageHeader';
-import { Users, CalendarDays, Honeycomb, Award } from 'lucide-react';
+import { Users, CalendarDays, Hexagon, Award } from 'lucide-react';
 
 const About = () => {
   const team = [
@@ -86,7 +85,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
               <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300 text-center">
                 <div className="bg-honey-100 rounded-full w-16 h-16 flex items-center justify-center mb-4 mx-auto">
-                  <Honeycomb className="text-honeycomb-dark h-8 w-8" />
+                  <Hexagon className="text-honeycomb-dark h-8 w-8" />
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-beeBlack">Structured Efficiency</h3>
                 <p className="text-gray-600">

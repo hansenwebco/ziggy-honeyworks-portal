@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Honeycomb, Home, Users, Workflow, Info } from 'lucide-react';
+import { Hexagon, Home, Users, Workflow, Info } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Navbar = () => {
@@ -33,7 +33,7 @@ const Navbar = () => {
   const navLinks = [
     { path: '/', name: 'Home', icon: <Home size={18} /> },
     { path: '/partners', name: 'Become a Partner', icon: <Workflow size={18} /> },
-    { path: '/hives', name: 'Our Hives', icon: <Honeycomb size={18} /> },
+    { path: '/hives', name: 'Our Hives', icon: <Hexagon size={18} /> },
     { path: '/about', name: 'About Us', icon: <Info size={18} /> },
   ];
 
@@ -50,7 +50,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Honeycomb className="text-honeycomb h-8 w-8" />
+            <Hexagon className="text-honeycomb h-8 w-8" />
             <span className="font-bold text-xl text-beeBlack hidden sm:inline">Ziggy's Honeyworks</span>
             <span className="font-bold text-xl text-beeBlack sm:hidden">Ziggy's</span>
           </Link>
