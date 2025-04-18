@@ -118,7 +118,7 @@ export default {
 				'float': 'float 5s ease-in-out infinite',
 			},
 			backgroundImage: {
-				'honeycomb-pattern': "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100' viewBox='0 0 56 100'%3E%3Cpath d='M28 66L0 50L0 16L28 0L56 16L56 50L28 66L28 100' fill='none' stroke='rgba(226, 169, 43, 0.2)' stroke-width='2'/%3E%3Cpath d='M28 0L28 34L0 50L0 84L28 100L56 84L56 50L28 34' fill='none' stroke='rgba(226, 169, 43, 0.2)' stroke-width='2'/%3E%3C/svg%3E\")",
+				'honeycomb-pattern': "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill='none' stroke='rgba(226, 169, 43, 0.1)' stroke-width='1'%3E%3Cpath d='M25 35.4L7.5 25v-20L25 5l17.5 10v20L25 35.4z'/%3E%3Cpath d='M75 35.4L57.5 25v-20L75 5l17.5 10v20L75 35.4z'/%3E%3Cpath d='M50 53.4L32.5 43v-20L50 23l17.5 10v20L50 53.4z'/%3E%3Cpath d='M25 71.4L7.5 61v-20L25 41l17.5 10v20L25 71.4z'/%3E%3Cpath d='M75 71.4L57.5 61v-20L75 41l17.5 10v20L75 71.4z'/%3E%3Cpath d='M50 89.4L32.5 79v-20L50 59l17.5 10v20L50 89.4z'/%3E%3C/g%3E%3C/svg%3E\")",
 			}
 		}
 	},
